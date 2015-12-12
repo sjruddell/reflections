@@ -5,3 +5,4 @@ A: The .git directory and all the metadata files are created. These files are ne
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 A: The repository contains files that have been committed individually or as part of a commit that contains multiple files. The staging area contains uncommitted files. It is used as an intermediate assembly area. Files can be added or removed without affecting the repository. Once the correct set of files has been added to the staging area, they can be committed. This eliminates the generation of the repository metadata for files that were ultimately deemed unsuitable for the repository.
+     
