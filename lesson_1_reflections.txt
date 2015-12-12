@@ -1,0 +1,28 @@
+;; This buffer is for notes you don't want to save, and for Lisp evaluation.
+;; If you want to create a file, visit that file with C-x C-f,
+;; then enter the text in that file's own buffer.
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A: Comparing deleted code to code that replaced it will allow you to determine which code shouldn't have been added in the first place. You will also learn what coding errors you make and frequently you make them. You can use this info to eliminate these errors from your code.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+A: Git like version control systems were written for code maintenance whereas Google Docs was written for documents.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+A: Git log displays the meta data for each commit and git diff displays the code changes that occurred between two commit id(s).
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+A: Version control allows you to quickly determine the version that introduced the bug and then via git diff to determine the precise line that introduced the bug.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+A: New code development in python, java, c++, c
+
+fa4c6bade4970c282b3870ad16f1bde8164663a9
+708bcce690e5faa5739bd471507c102ea16b77f7 <- contains bug
+547f4171a82ec6429d002c1acef357aec41d3f17 <- contains bug
+71d52709ddc4066e7a79a1d0a412e43429a0cdeb
