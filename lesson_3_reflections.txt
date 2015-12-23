@@ -1,0 +1,3 @@
+q: Why would you want to use a remote repository rather than keeping all your work local?
+
+a: So that people working on other computers can have immediate access to the commit
