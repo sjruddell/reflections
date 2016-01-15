@@ -1,3 +1,11 @@
 q: Why would you want to use a remote repository rather than keeping all your work local?
 
 a: So that people working on other computers can have immediate access to the commit
+
+q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+a: Some changes might implement features that you aren't interested in. If you allow Git to automatically stay up to date then you will receive these unwanted changes. 
+
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of the other?
+
+A: A fork operation creates a copy of someone else's remote repository in your remote repository on gitHub. A clone operation creates a copy of a remote repository on gitHub in your local repository. A branch 
