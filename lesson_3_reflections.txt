@@ -13,3 +13,7 @@ A: A fork operation creates a copy of someone else's remote repository in your r
 Q: What is the benefit of having a copy of the last known state of the remote stored locally?
 
 A: So that you can work when not connected to the internet.
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A: I would probably exchanges emails with a group of people. It would probably be a little more time consuming as there would inevitably be duplicate emails that would have to be responded to.
